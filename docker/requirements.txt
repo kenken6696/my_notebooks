@@ -1,0 +1,9 @@
+psycopg2-binary
+deap
+update_checker
+tqdm
+stopit
+xgboost
+tpot
+logzero
+jupyterlab
