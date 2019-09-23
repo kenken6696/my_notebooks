@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:latest-py3-jupyter
+FROM jupyter/tensorflow-notebook:latest
+USER root
 RUN apt update && apt install tree
 RUN mkdir -p /code && mkdir -p /code/static
 WORKDIR /code
