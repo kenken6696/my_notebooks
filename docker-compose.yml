@@ -9,7 +9,7 @@ services:
       NB_GID: 100
       GRANT_SUDO: "yes"
     volumes:
-      - .:/code
+      - ..:/code
     tty: true
     privileged: true
     ports:
